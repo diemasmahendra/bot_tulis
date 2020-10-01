@@ -60,7 +60,7 @@ def proccesText(tex):
     return kirim
 
 
-#Membuka file Tulisan.txt tempat tulisan kalian
+#Membuka file untuk Tulisan.txt tempat tulisan kalian
 with open('Tulisan.txt', 'r') as viewText:
     textUser = viewText.read()
 proces = proccesText(textUser)
